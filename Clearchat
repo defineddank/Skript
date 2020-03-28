@@ -1,0 +1,9 @@
+command /clearchat:
+        permission: minehut.clearchat
+        permission message: &cInsufficient permission. 
+        usage: /clearchat
+        trigger:
+                loop 100 times:
+                        broadcast " "
+                wait 5 ticks
+                broadcast "&e%player% &7cleared the chat" 
